@@ -12,29 +12,29 @@ public class DatabaseOperator
 	* 
 	* 
 	* 
-	public DatabaseOperator()															                      ==>	Constructor
-  public DatabaseOperator(String dbClassName, String connection)						  ==>	Constructor
+	public DatabaseOperator()											==>	Constructor
+  	public DatabaseOperator(String dbClassName, String connection)						 	==>	Constructor
 	
-	public void connect(String userName, String password)								        ==>	connect to database
+	public void connect(String userName, String password)								==>	connect to database
 	public void close()																	                        ==>	close the connection
-	public void createDatabase(String databaseName)										          ==>	creating a database
-	public ArrayList<String> showDatabases()											              ==>	show the databases
-	public void useDatabse(String databaseName)											            ==>	select a database
-	public void createTable(String tableName,String columnHeaders)						  ==>	create a table
-	public ArrayList<String> showTables()												                ==>	show tables in a database
-	public ArrayList<ArrayList<String>> showTableMetaData(String tableName)			==> show the columns in the selected table 
-	public boolean addTableRow(String table,String tableData)							      ==>	add new row
-	public void deleteTableRow(String tableName, String ColumnName, String fieldValue)	==>	delete row (selecting a column with String data)
-	public void deleteTableRow(String tableName, String ColumnName, int fieldValue)		  ==>	delete row (Selecting a column with int data)
-	public ArrayList<ArrayList<String>> showTableData(String tableName)					==>	show table data
-	public void showTableData(String tableName, String columNames)						  ==>	show table data (only selected columns)
-	public ArrayList<ArrayList<String>> showTableData(String tableName,String columNames,String rowsAttributes)  ==>	show table data (only selected rows & columns)
-	public void deleteDatabase(String DatabaseName)										          ==>	delete database
-	public void deleteTable(String tableName)											              ==>	delete table
+	public void createDatabase(String databaseName)									==>	creating a database
+	public ArrayList<String> showDatabases()									==>	show the databases
+	public void useDatabse(String databaseName)									==>	select a database
+	public void createTable(String tableName,String columnHeaders)						  	==>	create a table
+	public ArrayList<String> showTables()										==>	show tables in a database
+	public ArrayList<ArrayList<String>> showTableMetaData(String tableName)						==> 	show the columns in the selected table 
+	public boolean addTableRow(String table,String tableData)							==>	add new row
+	public void deleteTableRow(String tableName, String ColumnName, String fieldValue)				==>	delete row (selecting a column with String data)
+	public void deleteTableRow(String tableName, String ColumnName, int fieldValue)		  			==>	delete row (Selecting a column with int data)
+	public ArrayList<ArrayList<String>> showTableData(String tableName)						==>	show table data
+	public void showTableData(String tableName, String columNames)						 	==>	show table data (only selected columns)
+	public ArrayList<ArrayList<String>> showTableData(String tableName,String columNames,String rowsAttributes)  	==>	show table data (only selected rows & columns)
+	public void deleteDatabase(String DatabaseName)									==>	delete database
+	public void deleteTable(String tableName)									==>	delete table
 	
-	public void customDeletion(String sql) 												              ==>	delete data from table
-	public ArrayList<ArrayList<String>> customSelection(String sql)						  ==>	select data from table
-	public boolean customInsertion(String sql) 											            ==>	insert data to table
+	public void customDeletion(String sql) 										==>	delete data from table
+	public ArrayList<ArrayList<String>> customSelection(String sql)						  	==>	select data from table
+	public boolean customInsertion(String sql) 									==>	insert data to table
 	
 	* 
 	*/
