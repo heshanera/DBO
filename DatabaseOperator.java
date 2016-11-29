@@ -16,7 +16,7 @@ public class DatabaseOperator
   	public DatabaseOperator(String dbClassName, String connection)						 	==>	Constructor
 	
 	public void connect(String userName, String password)								==>	connect to database
-	public void close()																	                        ==>	close the connection
+	public void close()												==>	close the connection
 	public void createDatabase(String databaseName)									==>	creating a database
 	public ArrayList<String> showDatabases()									==>	show the databases
 	public void useDatabse(String databaseName)									==>	select a database
