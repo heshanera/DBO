@@ -1,2 +1,2 @@
-# Database_Operator
+# Database Operator
 simple java database operator
